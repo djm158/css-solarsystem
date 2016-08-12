@@ -39,11 +39,12 @@
     margin-left: -200px;
     position: absolute;
     top: 50%;
+    left: 50%;
      -webkit-animation: spin-right 8s linear infinite;
      -moz-animation: spin-right 8s linear infinite;
       -ms-animation: spin-right 8s linear infinite;
        -o-animation: spin-right 8s linear infinite;
-          animation: spin-right 8s linear infinite;   left: 50%;
+          animation: spin-right 8s linear infinite;   
 }
 
 #venus {
@@ -67,11 +68,12 @@
     margin-left: -275px;
     position: absolute;
     top: 50%;
+    left: 50%;
      -webkit-animation: spin-right 10s linear infinite;
      -moz-animation: spin-right 10s linear infinite;
       -ms-animation: spin-right 10s linear infinite;
        -o-animation: spin-right 10s linear infinite;
-          animation: spin-right 10s linear infinite;   left: 50%;
+          animation: spin-right 10s linear infinite;   
 }
 
 #earth {
@@ -95,11 +97,12 @@
     margin-left: -375px;
     position: absolute;
     top: 50%;
+    left: 50%;
      -webkit-animation: spin-right 13s linear infinite;
      -moz-animation: spin-right 13s linear infinite;
       -ms-animation: spin-right 13s linear infinite;
        -o-animation: spin-right 13s linear infinite;
-          animation: spin-right 13s linear infinite;   left: 50%;
+          animation: spin-right 13s linear infinite;   
 }
 
 #mars {
@@ -123,11 +126,12 @@
     margin-left: -450px;
     position: absolute;
     top: 50%;
+    left: 50%;
      -webkit-animation: spin-right 16s linear infinite;
      -moz-animation: spin-right 16s linear infinite;
       -ms-animation: spin-right 16s linear infinite;
        -o-animation: spin-right 16s linear infinite;
-          animation: spin-right 16s linear infinite;   left: 50%;
+          animation: spin-right 16s linear infinite;   
 }
 
 @-webkit-keyframes spin-right {
