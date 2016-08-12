@@ -1,9 +1,7 @@
 #html, body {
-    /* The universe takes up all available space */
     width: 100%;
     height: 100%;
     
-    /* The universe is black */
     background-color: black;
 }
 
@@ -41,11 +39,11 @@
     margin-left: -200px;
     position: absolute;
     top: 50%;
-     -webkit-animation: spin-right 10s linear infinite;
-     -moz-animation: spin-right 10s linear infinite;
-      -ms-animation: spin-right 10s linear infinite;
-       -o-animation: spin-right 10s linear infinite;
-          animation: spin-right 10s linear infinite;   left: 50%;
+     -webkit-animation: spin-right 8s linear infinite;
+     -moz-animation: spin-right 8s linear infinite;
+      -ms-animation: spin-right 8s linear infinite;
+       -o-animation: spin-right 8s linear infinite;
+          animation: spin-right 8s linear infinite;   left: 50%;
 }
 
 #venus {
@@ -69,11 +67,11 @@
     margin-left: -275px;
     position: absolute;
     top: 50%;
-     -webkit-animation: spin-left 10s linear infinite;
-     -moz-animation: spin-left 10s linear infinite;
-      -ms-animation: spin-left 10s linear infinite;
-       -o-animation: spin-left 10s linear infinite;
-          animation: spin-left 10s linear infinite;   left: 50%;
+     -webkit-animation: spin-right 10s linear infinite;
+     -moz-animation: spin-right 10s linear infinite;
+      -ms-animation: spin-right 10s linear infinite;
+       -o-animation: spin-right 10s linear infinite;
+          animation: spin-right 10s linear infinite;   left: 50%;
 }
 
 #earth {
@@ -85,7 +83,23 @@
     margin-left: -15px;
     position: absolute;
     top: 50%;
-    left: 26%;
+    left: 0%;
+}
+
+#earth-orbit {
+    height: 750px;
+    width: 750px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: -375px;
+    margin-left: -375px;
+    position: absolute;
+    top: 50%;
+     -webkit-animation: spin-right 13s linear infinite;
+     -moz-animation: spin-right 13s linear infinite;
+      -ms-animation: spin-right 13s linear infinite;
+       -o-animation: spin-right 13s linear infinite;
+          animation: spin-right 13s linear infinite;   left: 50%;
 }
 
 #mars {
@@ -97,7 +111,23 @@
     margin-left: -12px;
     position: absolute;
     top: 50%;
-    left: 21%;
+    left: 0%;
+}
+
+#mars-orbit {
+    height: 900px;
+    width: 900px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: -450px;
+    margin-left: -450px;
+    position: absolute;
+    top: 50%;
+     -webkit-animation: spin-right 16s linear infinite;
+     -moz-animation: spin-right 16s linear infinite;
+      -ms-animation: spin-right 16s linear infinite;
+       -o-animation: spin-right 16s linear infinite;
+          animation: spin-right 16s linear infinite;   left: 50%;
 }
 
 @-webkit-keyframes spin-right {
